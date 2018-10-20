@@ -280,7 +280,7 @@ contract VorteX {
     /**
     * @dev Move with initial ship location
     */
-    function defaultBlend()
+    function defaultMove()
         public
         payable
         gameInProgress
