@@ -18,4 +18,7 @@ const mapDispatchToProps = {
     push: () => push(HOME)
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(HomeItem);
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(HomeItem);

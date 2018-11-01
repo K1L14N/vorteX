@@ -67,8 +67,7 @@
   },
   "prettier": {
     "useTabs": false,
-    "tabWidth": 4,
-    "jsxBracketSameLine": false
+    "tabWidth": 4
   },
   "browserslist": [
     ">0.2%",

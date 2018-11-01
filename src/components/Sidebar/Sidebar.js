@@ -10,6 +10,7 @@ import { withStyles } from "@material-ui/core/styles";
 
 import SidebarHomeItem from "../../containers/Sidebar/HomeItem";
 import SidebarHeader from "../../containers/Sidebar/Header";
+import SidebarPlaygroundItem from "../../containers/Sidebar/PlaygroundItem";
 
 const styles = theme => ({
     drawer: {
@@ -65,6 +66,7 @@ const Sidebar = ({ classes, width, variant, open, onClose }) => {
                 <SidebarHeader />
                 <List className={classes.list}>
                     <SidebarHomeItem />
+                    <SidebarPlaygroundItem />
                 </List>
             </div>
         </Drawer>
@@ -79,4 +81,7 @@ Sidebar.propTypes = {
     onClose: PropTypes.func
 };
 
-export default compose(withWidth(), withStyles(styles))(Sidebar);
+export default compose(
+    withWidth(),
+    withStyles(styles)
+)(Sidebar);
