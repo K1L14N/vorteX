@@ -12,4 +12,7 @@ const mapDispatchToProps = {
     onClose: closeSidebar
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Sidebar);
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Sidebar);

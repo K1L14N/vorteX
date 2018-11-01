@@ -2,13 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { withStyles } from "@material-ui/core/styles";
+import PlayButton from "../../containers/Playground/PlayButton";
 
 const styles = theme => ({
     playground: {
         textAlign: "center"
-    },
-    playgroundLogo: {
-        height: "80px"
     },
     playgroundHeader: {
         height: "150px",
@@ -18,13 +16,18 @@ const styles = theme => ({
         fontSize: "1.5em"
     },
     playgroundIntro: {
-        fontSize: "large"
+        fontSize: "large",
+        color: "blue"
+    },
+    button: {
+        color: "blue"
     }
 });
 
 const Playground = ({ classes }) => (
     <div className={classes.playground}>
         <h1>Playground</h1>
+        <PlayButton />
     </div>
 );
 

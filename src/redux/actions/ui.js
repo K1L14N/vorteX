@@ -7,3 +7,8 @@ export const CLOSE_SIDEBAR = "CLOSE_SIDEBAR";
 export const closeSidebar = () => ({
     type: CLOSE_SIDEBAR
 });
+
+export const JOIN = "JOIN";
+export const join = () => ({
+    type: JOIN
+});

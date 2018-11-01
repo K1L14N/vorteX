@@ -8,4 +8,7 @@ const mapDispatchToProps = {
     onClick: () => push(HOME)
 };
 
-export default connect(undefined, mapDispatchToProps)(NoWhereHomeButton);
+export default connect(
+    undefined,
+    mapDispatchToProps
+)(NoWhereHomeButton);
