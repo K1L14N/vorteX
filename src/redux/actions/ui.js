@@ -8,7 +8,12 @@ export const closeSidebar = () => ({
     type: CLOSE_SIDEBAR
 });
 
-export const JOIN = "JOIN";
-export const join = () => ({
-    type: JOIN
+export const ROPSTEN_DISCONNECT = "ROPSTEN_DISCONNECT";
+export const ropstenDisconnect = () => ({
+    type: ROPSTEN_DISCONNECT
+});
+
+export const ROPSTEN_CONNECT = "ROPSTEN_CONNECT";
+export const ropstenConnect = () => ({
+    type: ROPSTEN_CONNECT
 });

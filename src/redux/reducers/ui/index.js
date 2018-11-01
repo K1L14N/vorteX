@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
 
 import sidebar from "./sidebar";
-import game from "./game";
+import metamask from "./metamask";
 
 export default combineReducers({
     sidebar,
+    metamask
     // other ui reducers go here
-    game
 });

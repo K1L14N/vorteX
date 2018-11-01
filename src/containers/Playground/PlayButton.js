@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 
-import { join } from "../../redux/actions/ui";
+import { join } from "../../redux/actions/game";
 import PlayButton from "../../components/Playground/PlayButton";
 
 const mapDispatchToProps = {

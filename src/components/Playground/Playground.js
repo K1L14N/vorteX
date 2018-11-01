@@ -18,13 +18,10 @@ const styles = theme => ({
     playgroundIntro: {
         fontSize: "large",
         color: "blue"
-    },
-    button: {
-        color: "blue"
     }
 });
 
-const Playground = ({ classes }) => (
+const Playground = ({ classes, gameOver }) => (
     <div className={classes.playground}>
         <h1>Playground</h1>
         <PlayButton />

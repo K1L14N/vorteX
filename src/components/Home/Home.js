@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 
 import logo from "./logo.svg";
+import Banner from "../../containers/Home/Banner";
 
 const styles = theme => ({
     home: {
@@ -30,10 +31,7 @@ const Home = ({ classes }) => (
             <img src={logo} className={classes.homeLogo} alt="logo" />
             <h1 className={classes.homeTitle}>Start playing to VorteX Now !</h1>
         </div>
-        <p className={classes.homeIntro}>
-            You need to enable Metamask and configurate it on the Ropsten
-            Network.
-        </p>
+        <Banner />
     </div>
 );
 

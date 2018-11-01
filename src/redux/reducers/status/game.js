@@ -1,4 +1,4 @@
-import { JOIN } from "../../actions/ui";
+import { JOIN } from "../../actions/game";
 
 const initialState = {
     gameOver: true
