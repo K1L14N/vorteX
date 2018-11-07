@@ -1,27 +1,14 @@
-[![Build Status](https://img.shields.io/travis/ConsenSys/boilerplate-react.svg)](https://travis-ci.org/ConsenSys/boilerplate-react)
-[![Coverage Status](https://img.shields.io/codecov/c/github/ConsenSys/boilerplate-react/master.svg)](https://codecov.io/gh/ConsenSys/boilerplate-react/branch/master)
-![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-[![Dependencies](https://img.shields.io/david/ConsenSys/boilerplate-react.svg)](https://david-dm.org/ConsenSys/boilerplate-react)
-[![DevDependencies](https://img.shields.io/david/dev/ConsenSys/boilerplate-react.svg)](https://david-dm.org/ConsenSys/boilerplate-react?type=dev)
-[![Demo on Heroku](https://img.shields.io/badge/demo-heroku-brightgreen.svg?style=flat-square)](https://consensys-boilerplate-react.herokuapp.com)
+# vorteX is currently in development ...
 
-# Boilerplate-React
+**This is going to be a Dapp using React/Redux/Docker/Smart Contrat/Ethereum.**
 
-This project is a React boilerplate used by ConsenSys to start new projects. 
+It uses a React boilerplate used by ConsenSys to start new projects. 
 
 It includes 
 
 - a stack of *.js* library that we use on a daily basis
 - an easy starting set-up using ``docker``
 - contributing guidelines for new developers
-
-## Start your own project from this boilerplate
-
-1. Change ```name```, ```version```, ```description```, ```repository```, ```keywords```, ```author```, ```bugs``` in ```./package.json``` if needed
-2. Change the icon in ```./public/favicon.ico```
-3. Change title in ```<title>``` tag of ```./public/index.html```
-4. Change ```short_name```, ```name``` and possibly ```theme_color``` and ```background_color``` in ```./public/manifest.json```
-5. Update every line ```README.md``` until this line
 
 ## Stack
 
