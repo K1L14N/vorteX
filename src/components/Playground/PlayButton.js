@@ -18,7 +18,7 @@ const PlayButton = ({ classes, onClick }) => (
         className={classes.button}
         onClick={onClick}
     >
-        Go Play
+        Join a game
     </Button>
 );
 

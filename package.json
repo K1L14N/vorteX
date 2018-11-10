@@ -29,6 +29,9 @@
     "redux": "^4.0.0"
   },
   "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^6.1.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "enzyme-to-json": "^3.3.0",
@@ -38,7 +41,8 @@
     "lint-staged": "^7.3.0",
     "prettier": "^1.14.3",
     "redux-test-utils": "^0.3.0",
-    "solidity-coverage": "^0.5.11"
+    "solidity-coverage": "^0.5.11",
+    "truffle-hdwallet-provider": "0.0.6"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
