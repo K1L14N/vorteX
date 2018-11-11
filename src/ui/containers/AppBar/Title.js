@@ -8,4 +8,7 @@ const mapDispatchToProps = {
     onClick: () => push(HOME)
 };
 
-export default connect(undefined, mapDispatchToProps)(AppBarTitle);
+export default connect(
+    undefined,
+    mapDispatchToProps
+)(AppBarTitle);

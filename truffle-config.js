@@ -22,7 +22,7 @@ module.exports = {
     // to customize your Truffle configuration!
     contracts_build_directory: "./src/web3/abis",
     networks: {
-        development: {
+        ganache: {
             host: "127.0.0.1",
             port: 7545,
             network_id: "*"

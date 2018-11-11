@@ -6,8 +6,8 @@ import { MuiThemeProvider } from "@material-ui/core/styles";
 
 import createStore from "./redux/store";
 import { history } from "./redux/enhancers/middlewares/router";
-import Layout from "./containers/Layout/Layout";
-import theme from "./constants/theme";
+import Layout from "./ui/containers/Layout/Layout";
+import theme from "./ui/constants/theme";
 
 class App extends Component {
     render() {

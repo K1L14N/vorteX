@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 
-import { closeSidebar } from "../../redux/actions/ui";
+import { closeSidebar } from "../../../redux/actions/ui";
 
 import Sidebar from "../../components/Sidebar/Sidebar";
 
