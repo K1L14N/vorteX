@@ -21,7 +21,7 @@ import vortex, { web3 } from "../../../../web3";
 function* getUserSaga() {
     try {
         yield put(startLoadingUser());
-        const [address, ...others] = yield call(web3.eth.getAccounts);
+        const [address] = yield call(web3.eth.getAccounts);
         const user = {
             address,
             pseudo: generator(address)
